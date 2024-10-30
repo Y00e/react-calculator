@@ -1,13 +1,14 @@
-
 import Calculator from "./Calculator"
-
+import '../styles/App.css'
 function App() {
  
 
   return (
     <>
-    <h1>Calculator</h1>
-    <Calculator />
+      <div className="App">
+        <h1>React Calculator </h1>
+        <Calculator />
+      </div>
     </>
   )
 }
