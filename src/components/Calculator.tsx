@@ -19,6 +19,7 @@ const Calculator = () => {
         } catch {
             setValue("Error");
         }
+        
     };
 
     return (
