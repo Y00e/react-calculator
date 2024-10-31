@@ -6,9 +6,9 @@ interface DisplayProps {
 
 const Display =  ({value}: DisplayProps) => {
     return (
-        <div className="display">
-            {value}
-        </div>
+
+        <input className='display' type="text" value={value} readOnly />
+        
     );
 };
 

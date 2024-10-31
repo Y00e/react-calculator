@@ -5,10 +5,10 @@
 }
 
 .App {
-    text-align: center;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
 
-h1 {
-    color: #333;
-    font-size: 2rem;  
 }
