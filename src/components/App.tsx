@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <h1>React Calculator </h1>
+        <h1>React Calculatoro </h1>
         <Calculator />
       </div>
     </>
